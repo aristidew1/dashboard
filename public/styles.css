@@ -139,7 +139,7 @@ a {
   display: grid;
   gap: clamp(28px, 5vw, 64px);
   grid-template-columns: minmax(0, 1.25fr) minmax(300px, 0.75fr);
-  padding-block: 0 34px;
+  padding-block: clamp(24px, 3vw, 40px) 34px;
 }
 
 .hero-copy {
@@ -147,7 +147,6 @@ a {
   min-width: 0;
 }
 
-.eyebrow,
 .section-label {
   align-items: center;
   color: var(--muted);
@@ -158,16 +157,6 @@ a {
   letter-spacing: 0.1em;
   margin: 0 0 18px;
   text-transform: uppercase;
-}
-
-.eyebrow span {
-  align-items: center;
-  border: 1px solid var(--border);
-  border-radius: 50%;
-  display: inline-flex;
-  height: 29px;
-  justify-content: center;
-  width: 29px;
 }
 
 .hero h1 {
@@ -776,7 +765,7 @@ a:focus-visible {
   }
 
   .hero {
-    padding-block: 0 28px;
+    padding-block: 24px 28px;
   }
 
   .hero h1 {
