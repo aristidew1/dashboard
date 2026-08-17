@@ -7,7 +7,7 @@
   "redirects": [
     {
       "source": "/poker",
-      "destination": "https://pokercard-nine.vercel.app",
+      "destination": "https://poker.aristidew.com",
       "permanent": false
     }
   ],

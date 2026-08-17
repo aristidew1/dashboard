@@ -17,7 +17,5 @@ Puis ouvrir <http://localhost:8080>.
 Importer le dépôt `aristidew1/dashboard` dans Vercel avec le preset **Other**.
 Le fichier `vercel.json` publie directement le dossier `public`.
 
-La route `/poker` redirige actuellement vers
-`https://pokercard-nine.vercel.app`. Après configuration du sous-domaine,
-remplacer cette destination par l’adresse définitive, par exemple
-`https://poker.example.com`.
+La route `/poker` redirige vers le sous-domaine de production
+`https://poker.aristidew.com`.
