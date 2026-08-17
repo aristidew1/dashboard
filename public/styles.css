@@ -139,7 +139,7 @@ a {
   display: grid;
   gap: clamp(28px, 5vw, 64px);
   grid-template-columns: minmax(0, 1.25fr) minmax(300px, 0.75fr);
-  padding-block: clamp(70px, 9vw, 112px) 34px;
+  padding-block: 0 34px;
 }
 
 .hero-copy {
@@ -776,7 +776,7 @@ a:focus-visible {
   }
 
   .hero {
-    padding-block: 54px 28px;
+    padding-block: 0 28px;
   }
 
   .hero h1 {
